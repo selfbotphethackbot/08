@@ -1,0 +1,78 @@
+                if Amid36 in op.param3:
+                    if op.param2 in Bots:
+                        pass                    
+                    try:
+                        ki8.kickoutFromGroup(op.param1,[op.param2])
+                    except:
+                        try:
+                            random.choice(KAC).kickoutFromGroup(op.param1,[op.param2])
+                        except:
+                            print ("client が蹴り規制orグループに存在しない為、\n["+op.param1+"]\nの\n["+op.param2+"]\nBecause the client does not exist in the kick regulation or group.\nAdd it to the blacklist.")
+                        if op.param2 in wait["blacklist"]:
+                            pass
+                        if op.param2 in wait["whitelist"]:
+                            pass
+                        else:
+                            wait["blacklist"][op.param2] = True
+                            
+                    X = ki8.getGroup(op.param1)
+                    X.preventJoinByTicket = False
+                    ki8.updateGroup(X)
+                    Ti = ki8.reissueGroupTicket(op.param1)
+                    cl.acceptGroupInvitationByTicket(op.param1,Ti)
+                    ki.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kk.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kc.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kd.acceptGroupInvitationByTicket(op.param1,Ti)
+                    ke.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kf.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kg.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kh.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kj.acceptGroupInvitationByTicket(op.param1,Ti)
+                    ki1.acceptGroupInvitationByTicket(op.param1,Ti)
+                    ki2.acceptGroupInvitationByTicket(op.param1,Ti)
+                    ki3.acceptGroupInvitationByTicket(op.param1,Ti)
+                    ki4.acceptGroupInvitationByTicket(op.param1,Ti)
+                    ki5.acceptGroupInvitationByTicket(op.param1,Ti)
+                    ki6.acceptGroupInvitationByTicket(op.param1,Ti)
+                    ki7.acceptGroupInvitationByTicket(op.param1,Ti)
+                    ki8.acceptGroupInvitationByTicket(op.param1,Ti)
+                    ki9.acceptGroupInvitationByTicket(op.param1,Ti)
+                    ki10.acceptGroupInvitationByTicket(op.param1,Ti)
+                    ki11.acceptGroupInvitationByTicket(op.param1,Ti)
+                    ki12.acceptGroupInvitationByTicket(op.param1,Ti)
+                    ki13.acceptGroupInvitationByTicket(op.param1,Ti)
+                    ki14.acceptGroupInvitationByTicket(op.param1,Ti)
+                    ki15.acceptGroupInvitationByTicket(op.param1,Ti)
+                    ki16.acceptGroupInvitationByTicket(op.param1,Ti)
+                    ki17.acceptGroupInvitationByTicket(op.param1,Ti)
+                    ki18.acceptGroupInvitationByTicket(op.param1,Ti)
+                    ki19.acceptGroupInvitationByTicket(op.param1,Ti)
+                    ki20.acceptGroupInvitationByTicket(op.param1,Ti)
+                    ki21.acceptGroupInvitationByTicket(op.param1,Ti)
+                    ki22.acceptGroupInvitationByTicket(op.param1,Ti)
+                    ki23.acceptGroupInvitationByTicket(op.param1,Ti)
+                    ki24.acceptGroupInvitationByTicket(op.param1,Ti)
+                    ki25.acceptGroupInvitationByTicket(op.param1,Ti)
+                    ki26.acceptGroupInvitationByTicket(op.param1,Ti)
+                    ki27.acceptGroupInvitationByTicket(op.param1,Ti)
+                    ki28.acceptGroupInvitationByTicket(op.param1,Ti)
+                    ki29.acceptGroupInvitationByTicket(op.param1,Ti)
+                    ki30.acceptGroupInvitationByTicket(op.param1,Ti)
+                    ki31.acceptGroupInvitationByTicket(op.param1,Ti)
+                    ki32.acceptGroupInvitationByTicket(op.param1,Ti)
+                    ki33.acceptGroupInvitationByTicket(op.param1,Ti)
+                    ki34.acceptGroupInvitationByTicket(op.param1,Ti)
+                    ki35.acceptGroupInvitationByTicket(op.param1,Ti)
+                    ki36.acceptGroupInvitationByTicket(op.param1,Ti)
+
+                    X = ki36.getGroup(op.param1)
+                    X.preventJoinByTicket = True
+                    ki36.updateGroup(X)
+                    Ticket = ki36.reissueGroupTicket(op.param1)                    
+                    if op.param2 in wait["blacklist"]:
+                        pass
+                    if op.param2 in wait["whitelist"]:
+                        pass
+                    else:
+                        wait["blacklist"][op.param2] = True
